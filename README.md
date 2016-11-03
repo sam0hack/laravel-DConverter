@@ -15,6 +15,6 @@ After you have installed FileSizeConverter , open your Laravel config file confi
 `{{SizeFormat::formatSizeUnits($attachment->file_size)}}`
 
 #Output examples
-99.24 kB
-100 Mb
-1 GB
+-99.24 kB
+-100 Mb
+-1 GB
