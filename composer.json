@@ -1,14 +1,27 @@
 {
     "name": "sam0hack/file-size-converter",
-    "description": "A helper tool for converting laravel getSize() into human readable format",
+    "type": "library",
+    "description": "A helper tool for converting laravel getSize() into human readable format.",
+    "keywords": ["getSize", "files", "converter"],
     "license": "GNU General Public License v3.0",
     "authors": [
         {
-            "name": "sam0hack",
-            "email": "sam.nyx@live.com",
-	    "github": "https://github.com/sam0hack"
+          "name": "sam0hack",
+          "email": "sam.nyx@live.com"
         }
     ],
-   
-    "require": {}
+    "require": {
+        "php": "^5.3.3|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "squizlabs/php_codesniffer": "~1.5",
+        "ext-intl": "*"
+    },
+  
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.6.x-dev"
+        }
+    }
 }
