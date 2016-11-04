@@ -19,9 +19,14 @@
         "ext-intl": "*"
     },
     "autoload": {
-        "psr-4": {
-            "sam0hack\\": "file-size-converter/"
-        }
+      "psr-4": {
+        "file-size-converter\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Tests\\": "tests/"
+      }
     },
     "extra": {
         "branch-alias": {
