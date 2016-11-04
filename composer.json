@@ -1,18 +1,20 @@
 {
-    "name": "sam0hack/FileSizeConverter",
+    "name": "sam0hack/dconverter",
     "type": "library",
-    "description": ":A helper tool for converting laravel getSize() into human readable format",
+    "description": "A helper tool for converting laravel getSize() into human readable format",
     "keywords": [
         "sam0hack",
-        "FileSizeConverter"
+        "FileSizeConverter",
+        "DConverter",
+        "Laravel"
     ],
-    "homepage": "https://github.com/sam0hack/laravel-FileSizeConverter",
+    "homepage": "https://github.com/sam0hack/laravel-DConverter",
     "license": "GNU General Public License v3.0",
     "authors": [
         {
             "name": "sam0hack",
             "email": "sam.nyx@live.com",
-            "homepage": "https://github.com/sam0hack/laravel-FileSizeConverter",
+            "homepage": "http://ilmtechnosolutions.com/",
             "role": "Developer"
         }
     ],
@@ -26,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "sam0hack\\FileSizeConverter\\": "src"
+            "sam0hack\\dconverter\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "sam0hack\\FileSizeConverter\\": "tests"
+            "sam0hack\\dconverter\\": "tests"
         }
     },
     "scripts": {
@@ -48,4 +50,3 @@
         "sort-packages": true
     }
 }
-

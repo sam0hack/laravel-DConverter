@@ -1,31 +1,16 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: sam0hack
+ * Date: 5/11/16
+ * Time: 4:33 AM
+ */
 
-namespace sam0hack\FileSizeConverter;
+namespace sam0hack\dconverter;
 
-use Illuminate\Support\ServiceProvider;
 
-class FileSizeConverterServiceProvider extends ServiceProvider
+class DC
 {
-    /**
-     * Perform post-registration booting of services.
-     *
-     * @return void
-     */
-    public function boot()
-    {
-        echo "hello";
-    }
-
-    /**
-     * Register any package services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        //
-    }
-
     public static function SizeFormat($bytes)
     {
         if ($bytes >= 1073741824)
