@@ -6,7 +6,7 @@
  * Time: 4:28 AM
  */
 
-namespace vendoe\FileSizeFormat;
+namespace vendor\FileSizeFormat;
 
 /**
  * Class FileSizeFormat
