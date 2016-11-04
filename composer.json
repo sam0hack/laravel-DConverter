@@ -1,5 +1,5 @@
 {
-    "name": "sam0hack/FileSizeConverter",
+    "name": "sam0hack/file-size-converter",
     "type": "library",
     "description": ":package_description",
     "keywords": [
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "sam0hack\\FileSizeConverter\\": "src"
+            "sam0hack\\file-size-converter\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "sam0hack\\FileSizeConverter\\": "tests"
+            "sam0hack\\file-size-converter\\": "tests"
         }
     },
     "scripts": {
