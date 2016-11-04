@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "FileSizeConverter\\": "src/"
+            "sam0hack\\": "file-size-converter/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.6.x-dev"
+            "dev-master": "master"
         }
     }
 }
