@@ -6,7 +6,7 @@
  * Time: 4:28 AM
  */
 
-namespace vendor\FileSizeFormat;
+namespace sam0hack\FileSizeFormat;
 
 /**
  * Class FileSizeFormat
