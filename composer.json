@@ -1,18 +1,18 @@
 {
-    "name": "sam0hack/file-size-converter",
+    "name": "sam0hack/FileSizeConverter",
     "type": "library",
-    "description": ":package_description",
+    "description": ":A helper tool for converting laravel getSize() into human readable format",
     "keywords": [
         "sam0hack",
         "FileSizeConverter"
     ],
-    "homepage": "https://github.com/sam0hack/FileSizeConverter",
-    "license": "MIT",
+    "homepage": "https://github.com/sam0hack/laravel-FileSizeConverter",
+    "license": "GNU General Public License v3.0",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": ":sam0hack",
+            "email": ":sam.nyx@live.com",
+            "homepage": ":https://github.com/sam0hack/laravel-FileSizeConverter",
             "role": "Developer"
         }
     ],
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "sam0hack\\file-size-converter\\": "src"
+            "sam0hack\\FileSizeConverter\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "sam0hack\\file-size-converter\\": "tests"
+            "sam0hack\\FileSizeConverter\\": "tests"
         }
     },
     "scripts": {
