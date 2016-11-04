@@ -5,14 +5,14 @@ A helper tool for converting laravel getSize() into human readable format
 
 After you have installed FileSizeConverter , open your Laravel config file config/app.php and add the following lines in the $aliases array.
 
-`'FileSizeConverter'   => vendor\FileSizeFormat::class,`
+`FileSizeConverter'   => sam0hack\FileSizeConverter::class,`
 
 #Usage
 
-`SizeFormat::formatSizeUnits($attachment->file_size)`
+`FileSizeConverter::SizeFormat($attachment->file_size))`
 
 ###In blade tamplate
-`{{SizeFormat::formatSizeUnits($attachment->file_size)}}`
+`{{\sam0hack\FileSizeConverter::SizeFormat($attachment->file_size)}}`
 
 #Output examples
 * 99.24 kB
