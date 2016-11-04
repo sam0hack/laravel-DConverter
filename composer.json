@@ -10,9 +10,9 @@
     "license": "GNU General Public License v3.0",
     "authors": [
         {
-            "name": ":sam0hack",
-            "email": ":sam.nyx@live.com",
-            "homepage": ":https://github.com/sam0hack/laravel-FileSizeConverter",
+            "name": "sam0hack",
+            "email": "sam.nyx@live.com",
+            "homepage": "https://github.com/sam0hack/laravel-FileSizeConverter",
             "role": "Developer"
         }
     ],
