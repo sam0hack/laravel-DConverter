@@ -6,13 +6,13 @@
  * Time: 4:28 AM
  */
 
-namespace sam0hack\FileSizeFormat;
+namespace sam0hack;
 
 /**
- * Class FileSizeFormat
- * @package vendoe\FileSizeFormat
+ * Class FileSizeConverter
+ * @package FileSizeConverte
  */
-class FileSizeFormat
+class FileSizeConverter
 {
     /**
      * @param $bytes
