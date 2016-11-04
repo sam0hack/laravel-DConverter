@@ -23,3 +23,6 @@ After you have installed FileSizeConverter , open your Laravel config file confi
 * 100 Mb
 * 1 GB
 
+#packagist
+https://packagist.org/packages/sam0hack/file-size-converter
+
