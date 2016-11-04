@@ -10,7 +10,7 @@ namespace sam0hack;
 
 /**
  * Class FileSizeConverter
- * @package FileSizeConverte
+ * @package FileSizeConverter
  */
 class FileSizeConverter
 {
