@@ -1,23 +1,31 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: sam0hack
- * Date: 4/11/16
- * Time: 4:28 AM
- */
 
-namespace sam0hack;
+namespace sam0hack\FileSizeConverter;
 
-/**
- * Class FileSizeConverter
- * @package FileSizeConverter
- */
-class FileSizeConverter
+use Illuminate\Support\ServiceProvider;
+
+class FileSizeConverterServiceProvider extends ServiceProvider
 {
     /**
-     * @param $bytes
-     * @return string
+     * Perform post-registration booting of services.
+     *
+     * @return void
      */
+    public function boot()
+    {
+        echo "hello";
+    }
+
+    /**
+     * Register any package services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        //
+    }
+
     public static function SizeFormat($bytes)
     {
         if ($bytes >= 1073741824)
@@ -44,7 +52,6 @@ class FileSizeConverter
         {
             $bytes = '0 bytes';
         }
-
         return $bytes;
     }
 }
