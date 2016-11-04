@@ -18,7 +18,11 @@
         "squizlabs/php_codesniffer": "~1.5",
         "ext-intl": "*"
     },
-  
+    "autoload": {
+        "psr-4": {
+            "FileSizeConverter\\": "src/"
+        }
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.6.x-dev"
