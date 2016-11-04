@@ -1,5 +1,5 @@
 # laravel-FileSizeConverter
-A helper tool for converting laravel getSize() into human readable format
+A helper tool for converting laravel getSize() into human readable format.
 
 #Integration in Laravel
 
