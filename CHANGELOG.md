@@ -7,13 +7,13 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ## NEXT - YYYY-MM-DD
 
 ### Added
-- 
+- SizeFormat
 
 ### Deprecated
 - Nothing
 
 ### Fixed
-- Nothing
+- invalid syntax
 
 ### Removed
 - Nothing
