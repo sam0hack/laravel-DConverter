@@ -1,7 +1,7 @@
 {
     "name": "sam0hack/dconverter",
     "type": "library",
-    "description": "A helper tool for converting laravel getSize() into human readable format",
+    "description": "helper tool for converting and formatting Outputs into human readable format",
     "keywords": [
         "sam0hack",
         "FileSizeConverter",
