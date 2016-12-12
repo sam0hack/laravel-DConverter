@@ -1,3 +1,7 @@
+[![Total Downloads](https://poser.pugx.org/sam0hack/dconverter/downloads)](https://packagist.org/packages/sam0hack/dconverter)
+[![Monthly Downloads](https://poser.pugx.org/sam0hack/dconverter/d/monthly)](https://packagist.org/packages/sam0hack/dconverter)
+[![Daily Downloads](https://poser.pugx.org/sam0hack/dconverter/d/daily)](https://packagist.org/packages/sam0hack/dconverter)
+[![License](https://poser.pugx.org/sam0hack/dconverter/license)](https://packagist.org/packages/sam0hack/dconverter)
 # laravel-DConverter
 A helper tool for converting and formatting Outputs into human readable format.
 
