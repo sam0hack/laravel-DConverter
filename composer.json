@@ -18,6 +18,7 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "illuminate/support": "~5.1",
         "php" : "~5.6|~7.0"
