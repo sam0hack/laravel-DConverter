@@ -44,7 +44,7 @@
     "extra": {
         "branch-alias": {
             
-            "master": "2.0-dev"
+            "stable": "2.0-stable"
         }
     },
     "config": {
