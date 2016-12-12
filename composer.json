@@ -43,8 +43,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.6.x-dev",
-            "stable": "2.0-stable"
+            
+            "master": "2.0-dev"
         }
     },
     "config": {
