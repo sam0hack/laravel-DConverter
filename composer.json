@@ -18,7 +18,7 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "stable",
+    
     "prefer-stable": "true"
     "require": {
         "illuminate/support": "~5.1",
