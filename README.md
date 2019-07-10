@@ -5,9 +5,9 @@
 # laravel-DConverter
 A helper tool for converting and formatting Outputs into human readable format.
 
-#Integration in Laravel
+# Integration in Laravel
 
-##Install using Composer
+## Install using Composer
 
 Run `composer require sam0hack/dconverter  dev-master`
 
@@ -15,30 +15,30 @@ After you have installed dconverter , open your Laravel config file config/app.p
 
 `'DConverter' => sam0hack\dconverter\DC::class,`
 
-#Tools
+# Tools
 **SizeFormat --- SizeFormat convert's the laravel getSize() Or bytes data into kb, mb and gb**
 **Hours        --- Calculate Hours betweens Two dates**
 **Percentage --- Calculate Percentage**
  **MakeColors --- Simply generate hex color**
 **DistanceMatrix --- Calculate Time and distance between two locations using google distance API**
 
-###Example of SizeFormat()
+### Example of SizeFormat()
 
 `DC::SizeFormat($attachment->file_size)`
 
-#####In blade tamplate
+##### In blade tamplate
 `{{\sam0hack\dconverter\DC::SizeFormat($attachment->file_size)}}`
 
-#####Output examples
+##### Output examples
 * 99.24 kB
 * 100 Mb
 * 1 GB
 
-###Example of Hours()
+### Example of Hours()
 
 `DC::Hours($date,$date2)`
 
-#####In blade tamplate
+##### In blade tamplate
 `{{\sam0hack\dconverter\DC::Hours($date,$date2)}}`
 
 #####Output examples
@@ -48,7 +48,7 @@ After you have installed dconverter , open your Laravel config file config/app.p
 
 
 
-###Example of Percentage()
+### Example of Percentage()
 
 
     DC::Percentage($current,$total)
@@ -61,26 +61,26 @@ After you have installed dconverter , open your Laravel config file config/app.p
     
     $percentage = DC::Percentage($currentHours,$totalhours);
 
-#####Output examples
+##### Output examples
 * 25
 * 33.0
 * -150
 
 
-###Example of MakeColors()
+### Example of MakeColors()
 
 `DC::MakeColors()`
 
-#####In blade tamplate
+##### In blade tamplate
 `{{\sam0hack\dconverter\DC::MakeColors()}}`
 
-#####Output examples
+##### Output examples
 * "#0951e7"
 * "#071377"
 * "#cdda5d"
 
 
-###Example of DistanceMatrix()
+### Example of DistanceMatrix()
 For Setup DistanceMatrix you need to add google API into config/services.php
 
 'google'=>[
@@ -97,7 +97,7 @@ For Setup DistanceMatrix you need to add google API into config/services.php
     $distance = $dist['distance'];
     $time	    = $dist['time'];
 
-#####Output examples
+##### Output examples
 * "2,184 mi"
 *  "1 day 8 hours"
 
@@ -114,7 +114,7 @@ For the calculation of distances, you may specify the transportation mode to use
     DC::DistanceMatrix($origin, $destination,'walking');
 
 
-#packagist
+# packagist
 https://packagist.org/packages/sam0hack/dconverter
 
 
